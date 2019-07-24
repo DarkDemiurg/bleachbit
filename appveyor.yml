@@ -77,10 +77,10 @@ artifacts:
 deploy:
   - provider: S3
     access_key_id:
-      secure: CrPvjz7Jvg4gwOHKxUsL0PPR4mqAjB2p15/pvFw3fCk=
+      secure: GJ2BXpTeqe5FM5bkD3iXEgcs3fTTUAJMaML4XIj0tVk=
     secret_access_key:
-      secure: VoAH5pVyhmTK3/KRuV5WcgfkTR3k/M9QDt7UD6ewcwNfkUvMynwjAHnKCG4vR0Rx
-    bucket: bleachbitci
+      secure: y5bSKcxI+uz5XVnrRD8b5n+1VbdhT5yJ4Q9j41n8/JhN94GgIifJGmH6jj9nSX+e
+    bucket: bleachbit
     folder: dl/$(APPVEYOR_BUILD_VERSION)
     artifact:
     set-public: true
